@@ -1,0 +1,1016 @@
+# Copyright (C) 2022 Pereere Codes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Referrer Plugin 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/referrer-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Hong Kong)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-08T12:42:26+00:00\n"
+"PO-Revision-Date: 2022-12-24 12:09+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: referrer-plugin\n"
+"Language: zh_HK\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#. translators: Message to display when WooCommerce is not active.
+#: referrer-plugin.php:50
+msgid ""
+"<code>Referrer Plugin</code> requires <code>WooCommerce</code> to be "
+"installed and activated."
+msgstr "直銷佣金系統需先下載Woocommerce才可開啟"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:609
+msgid ""
+"A recover code has been sent to your email. Please check your inbox. The "
+"code will expire in 10 minutes."
+msgstr "重設密碼之驗證碼已傳至您的電郵, 請查看. 有效10分鐘."
+
+#. translators: Success message displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:852
+msgid "Account created successfully. You can now log in."
+msgstr "會員已創建, 請登入"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:440
+msgid "Account Number"
+msgstr "戶口號碼"
+
+# 購買基本套裝後您就可以在任何產品裡獲得百分比 %1$s 之折扣優惠~!!!!!!!!
+#. translators: Text displayed to the user when they are about to purchase a plan. %1$s is the plan price, %1$s is the discount percentage subscribers get for products.
+#: templates/shortcodes/shortcode-purchase-plan.php:28
+msgid ""
+"After purchasing this plan, you will become a subscribed member and gain "
+"%1$s percent discount on products on this site."
+msgstr "購買基本套裝後您就可以在任何產品裡獲得百分比 %1$s 之折扣優惠~!!!!!!!!"
+
+#. translators: Date ago.
+#: includes/tables/class-table-commissions.php:712
+#: includes/tables/class-table-referees.php:693
+msgid "ago"
+msgstr ""
+
+#: includes/tables/class-table-admin-users.php:948
+msgid "All Users"
+msgstr "全部用戶"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Already a member?"
+msgstr "已是會員? 請登入"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:431
+msgid "Amount"
+msgstr "金額"
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:178
+msgid "Amount is not equal to commissions sum amount. "
+msgstr ""
+
+#. translators: Admin page table bulk action selector submit button.
+#: includes/tables/class-mp-wp-list-table.php:592
+msgid "Apply"
+msgstr "申請"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:437
+msgid "Bank Account Name"
+msgstr "銀行帳戶擁有人名稱"
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block description"
+msgid "Example block scaffolded with Create Block tool."
+msgstr ""
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block title"
+msgid "Block Test"
+msgstr ""
+
+#: includes/tables/class-mp-wp-list-table.php:553
+msgid "Bulk Actions"
+msgstr "多項選擇行動"
+
+#: includes/tables/class-table-commissions.php:1085
+#: includes/tables/class-table-referees.php:1004
+msgid "By Referee"
+msgstr ""
+
+#: includes/tables/class-table-commissions.php:1055
+#: includes/tables/class-table-referees.php:974
+msgid "By Referrer"
+msgstr ""
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Change Logo"
+msgstr "更改Logo"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#. translators: Button text displayed to the user when they are eligible to withdraw their commission.
+#: includes/shortcodes/class-shortcode-request-payment.php:76
+#: templates/shortcodes/shortcode-request-payment.php:17
+msgid "Claim your commissions"
+msgstr "申請兌現佣金"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:654
+msgid "Claimed Commissions"
+msgstr "已提現的佣金"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Click here"
+msgstr "點擊這裡"
+
+#. translators: The table column title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:77
+msgid "Commission"
+msgstr "佣金"
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:507
+msgid "Commission Amount"
+msgstr "佣金金額"
+
+#. translators: %1$s: Referrer user id, %2$s: Referee user id.
+#: functions.php:614
+msgid "Commission for %s"
+msgstr "佣金之 %s"
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:484 class-initializer.php:487
+#: includes/pages/class-admin-page-commissions.php:52
+#: templates/shortcodes/shortcode-member-dashboard.php:51
+msgid "Commissions"
+msgstr "佣金"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:443
+msgid "Commissions to pay for"
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:185
+msgid "Compact view"
+msgstr ""
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Company Logo"
+msgstr "公司Logo"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Confirm Password"
+msgstr "確認密碼"
+
+#. translators: %s is the total unpaid commissions for a user.
+#: functions.php:1202
+msgid "Congratulations!!! You can now claim your commissions of %s."
+msgstr "太好了, 您現在可以申請提現 %s 之佣金"
+
+#. translators: Message displayed to the user when the payment request has been paid.
+#: functions.php:1165
+msgid "Congratulations!!! Your commissions of %s has been paid."
+msgstr "太好了, %s 之佣金已發放至您的銀行帳戶"
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1060
+#: includes/tables/class-mp-wp-list-table.php:1068
+msgid "Current Page"
+msgstr "現在頁面"
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-commissions.php:519
+#: includes/tables/class-table-payment-requests.php:446
+#: templates/shortcodes/member-dashboard/commissions.php:95
+#: templates/shortcodes/member-dashboard/referees.php:61
+msgid "Date"
+msgstr "日子"
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:181
+msgid "Date:"
+msgstr "日子:"
+
+#. translators: Delete deposit action button.
+#. translators: Bulk action.
+#: includes/tables/class-table-admin-users.php:758
+#: includes/tables/class-table-payment-requests.php:1003
+msgid "Delete"
+msgstr "刪除"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Email (Optional)"
+msgstr ""
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:253
+msgid "Error adding plan to cart. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:198
+msgid "Error: "
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:187
+msgid "Extended view"
+msgstr ""
+
+#. translators: Table filter button.
+#: includes/tables/class-table-admin-users.php:918
+msgid "Filter"
+msgstr "篩選"
+
+#: includes/tables/class-table-payment-requests.php:1059
+#: includes/tables/class-table-payment-requests.php:1103
+msgid "Filter by who requested the payment"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "First Name"
+msgstr "名字"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:86
+msgid "First name"
+msgstr "名稱"
+
+#. translators: Accessibility text.
+#: includes/tables/class-mp-wp-list-table.php:1037
+msgid "First page"
+msgstr "首頁"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Forgot your password?"
+msgstr "忘記密碼?"
+
+#. translators: From date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:996
+msgid "From Date"
+msgstr "由(日期)"
+
+#: templates/shortcodes/shortcode-member-dashboard.php:138
+msgid "Hello "
+msgstr "你好"
+
+#: templates/shortcodes/shortcode-member-dashboard.php:98
+msgid "Home"
+msgstr "主頁"
+
+#. Plugin URI of the plugin
+msgid "https://pereere.com/wordpress-plugins/referrer-plugin/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https:://pereere.com"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:682
+msgid "Invalid email or password"
+msgstr "密碼錯誤"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:663
+msgid "Invalid login details."
+msgstr "登入資料錯誤"
+
+#. translators: Message displayed when nonce is invalid during ajax request.
+#: class-initializer.php:651
+msgid "Invalid nonce"
+msgstr ""
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:235
+msgid "Invalid order."
+msgstr "錯誤訂單"
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:231
+msgid "Invalid plan product. Set a plan product."
+msgstr "錯誤產品套裝計劃, 設定套裝計劃之產品"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:509
+msgid "Invalid recover code."
+msgstr "錯誤驗證碼"
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:301
+#: includes/helpers/class-ajax-public-helper.php:781
+msgid "Invalid referrer."
+msgstr "介紹人資料輸入錯誤"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:387
+msgid "Invalid user"
+msgstr "錯誤用戶"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Last Name"
+msgstr "姓氏"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:88
+msgid "Last name"
+msgstr "姓氏"
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1104
+msgid "Last page"
+msgstr "最後一頁"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Login"
+msgstr "登入"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:688
+msgid "Login Successful."
+msgstr "登入成功"
+
+#. translators: Bulk action. Mark payment as paid.
+#: includes/tables/class-table-payment-requests.php:1009
+msgid "Mark as Paid"
+msgstr "標記為已發放款項"
+
+#. translators: Bulk action. Mark payment as pending.
+#: includes/tables/class-table-payment-requests.php:1006
+msgid "Mark as Pending"
+msgstr "標記為待處理"
+
+#. translators: Member dashboard page title.
+#. translators: Member dashboard menu item title.
+#: functions.php:221 functions.php:270 functions.php:298
+#: templates/shortcodes/shortcode-member-dashboard.php:110
+msgid "Member Dashboard"
+msgstr "個人中心"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:90
+msgid "Middle name"
+msgstr ""
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Minimum amount before commission claim"
+msgstr "最小申請佣金提取金額"
+
+#. translators: The user's user id.
+#: templates/shortcodes/member-dashboard/settings.php:34
+msgid "My User ID"
+msgstr "我的用戶ID"
+
+#. translators: The title of the user's username displayed in the user's dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:26
+msgid "My Username"
+msgstr "我的用戶名稱"
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1091
+msgid "Next page"
+msgstr "下一頁"
+
+#. translators: No approved comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:832
+msgid "No approved comments"
+msgstr "未批核之留言"
+
+#. translators: No comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:775
+#: includes/tables/class-mp-wp-list-table.php:835
+#: includes/tables/class-mp-wp-list-table.php:884
+msgid "No comments"
+msgstr "沒有留言"
+
+#. translators: No pending comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:881
+msgid "No pending comments"
+msgstr "沒有待處理之留言"
+
+#. translators: Displayed in the user dashboard settings page when the user has no referrer.
+#: templates/shortcodes/member-dashboard/settings.php:48
+msgid "No Referrer"
+msgstr "沒有介紹人"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Not yet a member?"
+msgstr "尚未是會員?"
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:522
+msgid "Order Made"
+msgstr "訂單已建立"
+
+#. translators: Error when the order is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:763
+msgid "Order not found"
+msgstr "找不到訂單"
+
+#: functions.php:1404 includes/tables/class-table-payment-requests.php:1120
+msgid "Paid"
+msgstr "已付款"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:449
+msgid "Paid Date"
+msgstr "付款日期"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Password"
+msgstr "密碼"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:772
+msgid "Password and \"Confirm Password\" does not match"
+msgstr "確認密碼 與 密碼 不符"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:417
+msgid "Password and confirm password do not match."
+msgstr "確認密碼 與 密碼 不符"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:584
+msgid "Password Reset Code"
+msgstr "重設密碼驗證碼"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:408
+msgid "Password should not be empty."
+msgstr "密碼不能留空"
+
+#: includes/tables/class-table-payment-requests.php:516
+msgid "Payment request(s) deleted successfully!"
+msgstr "此「提取佣金申請」已刪除!"
+
+#: includes/tables/class-table-payment-requests.php:566
+msgid "Payment request(s) marked as paid."
+msgstr "標記「提取佣金申請」為已發放款項"
+
+#: includes/tables/class-table-payment-requests.php:541
+msgid "Payment request(s) marked as pending."
+msgstr "標記「提取佣金申請」為待處理"
+
+#. translators: The page title.
+#: class-initializer.php:506 class-initializer.php:509
+#: includes/pages/class-admin-page-payment-requests.php:53
+msgid "Payment Requests"
+msgstr "提取佣金申請"
+
+#: includes/tables/class-table-payment-requests.php:1116
+msgid "Pending"
+msgstr "待處理"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid ""
+"Percentage Commission to pay referrers for each product bought by their "
+"referrals"
+msgstr "介紹人 能從 被介紹人之購買金額中 能提取的佣金百分比"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Percentage discount for subscribers"
+msgstr "已付基本套裝之會員的購買折扣"
+
+#. Author of the plugin
+msgid "Pereere Codes"
+msgstr ""
+
+#. translators: Success message displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:260
+msgid "Plan product added to the cart.."
+msgstr "產品已加入購物車"
+
+#. translators: Error displayed to the user during signup if they provided their email.
+#: includes/helpers/class-ajax-public-helper.php:821
+#, fuzzy
+#| msgid "Please provide a valid email"
+msgid "Please provide a valid email."
+msgstr "請提供正確電郵"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:753
+msgid "Please provide a valid first name"
+msgstr "請提供正確名字"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:759
+msgid "Please provide a valid last name"
+msgstr "請提供正確姓氏"
+
+#. translators: Error displayed to the user during password recovery.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:650
+#: includes/helpers/class-ajax-public-helper.php:741
+msgid "Please provide a valid password"
+msgstr "請提供正確密碼"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:747
+msgid "Please provide a valid password confirmation"
+msgstr "請提供正確確認密碼"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:735
+msgid "Please provide a valid username"
+msgstr "請提供正確用戶名稱"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:472
+#: includes/helpers/class-ajax-public-helper.php:548
+#: includes/helpers/class-ajax-public-helper.php:642
+msgid "Please provide a valid Username or Email"
+msgstr "請提供正確用戶名稱或電郵"
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:124
+msgid "Please provide minimum amount before commission claim"
+msgstr "請於申請提取佣金前輸入最少金額"
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:139
+msgid "Please provide percentage commission for referrer"
+msgstr "請提供介紹人之佣金百分比"
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:133
+msgid "Please provide percentage discount for referees"
+msgstr "請提供被介紹人之折扣百分比"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:481
+msgid "Please provide the recover code sent to your email."
+msgstr "請提供重設密碼驗證碼(已發放至您的電郵)"
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:118
+msgid "Please select a plan product"
+msgstr "請選擇產品"
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:164
+msgid "Please select a valid company logo."
+msgstr "請提供正確公司Logo"
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:154
+msgid "Please select a valid product."
+msgstr "請提供正確產品"
+
+#. translators: Shown in the admin when the company logo is not set.
+#: functions.php:1538
+msgid "Please set the company logo in the Referrer Plugin settings page."
+msgstr "請在直銷介紹及佣金系統之設定頁面提供公司Logo"
+
+#. translators: Shown in the admin when the company logo is not found.
+#: functions.php:1559
+msgid ""
+"Please the company logo set in the Referrer Plugin settings page is not "
+"found."
+msgstr "找不到已設定的公司Logo"
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1051
+msgid "Previous page"
+msgstr "上一頁"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Proceed"
+msgstr "通過"
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:525
+msgid "Product Bought"
+msgstr "已購買的產品"
+
+#. translators: Error when the product is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:735
+msgid "Product not found"
+msgstr "找不到產品"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Product Plan"
+msgstr "產品計劃套裝"
+
+#. translators: Title displayed to the user when they are eligible to purchase a plan (Title of the popup).
+#: templates/shortcodes/shortcode-purchase-plan.php:24
+#: assets/build/public/shortcode-purchase-plan-2.0.2.js:1
+msgid "Purchase Plan"
+msgstr "購買套裝~"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:517
+msgid "Recover code has expired."
+msgstr "重設密碼驗證碼已過期"
+
+#. translators: Success message when code is valid while trying to recover password.
+#: includes/helpers/class-ajax-public-helper.php:444
+msgid "Recover code is valid. You can now reset your password."
+msgstr "重設密碼之驗證碼正確, 您現在可重設密碼"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Recovery Code"
+msgstr "重設密碼之驗證碼"
+
+#. translators: The admin referees page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-referees.php:640
+#: templates/shortcodes/member-dashboard/commissions.php:89
+#: templates/shortcodes/member-dashboard/referees.php:67
+msgid "Referee"
+msgstr "被介紹人"
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:516
+msgid "Referee (The buyer)"
+msgstr "被介紹人(消費者)"
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:649
+msgid "Referee Signup Date"
+msgstr "被介紹人登記成為會員之日期"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-referees.php:643
+msgid "Referee Status"
+msgstr "被介紹人狀態"
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:193
+msgid "Referee:"
+msgstr "被介紹人"
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:462 class-initializer.php:465
+#: includes/pages/class-admin-page-referees.php:61
+#: templates/shortcodes/shortcode-member-dashboard.php:58
+msgid "Referees"
+msgstr "被介紹人"
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:646
+msgid "Referred By"
+msgstr "被哪個會員介紹"
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:510
+msgid "Referrer (Commission Owner)"
+msgstr "介紹人 (佣金擁有者)"
+
+#. translators: Success message displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:319
+msgid "Referrer Found"
+msgstr "已找到的介紹人"
+
+#. Plugin Name of the plugin
+msgid "Referrer Plugin"
+msgstr "直銷佣金及介紹系統"
+
+#. translators: Error displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:292
+msgid "Referrer should not be empty."
+msgstr "介紹人 不可以留空"
+
+#. translators: The user's referrer id and username. This played in the user dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:42
+msgid "Referrer User ID / Username"
+msgstr "介紹人之用戶ID/用戶名稱"
+
+#. translators: The admin users page table column header.
+#. translators: To date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:659
+#: includes/tables/class-table-admin-users.php:1007
+msgid "Registered"
+msgstr "已登記"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:428
+msgid "Requested By"
+msgstr "誰提出申請"
+
+#: includes/tables/class-table-payment-requests.php:1065
+msgid "Requested by"
+msgstr "誰提出申請"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Reset Password"
+msgstr "重設密碼"
+
+#. translators: Search input placeholder.
+#: includes/tables/class-table-commissions.php:984
+#: includes/tables/class-table-payment-requests.php:983
+#: includes/tables/class-table-referees.php:903
+msgid "Search Referees"
+msgstr "搜尋被介紹人"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Select"
+msgstr "選擇"
+
+#. translators: table header checkbox label (Admin page).
+#: includes/tables/class-mp-wp-list-table.php:1384
+msgid "Select All"
+msgstr "選擇全部"
+
+#. translators: accessibility text
+#: includes/tables/class-mp-wp-list-table.php:539
+msgid "Select bulk action"
+msgstr "選擇多項行動"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Select Company Logo"
+msgstr "選擇公司Logo"
+
+#: assets/build/admin/admin-page-settings-2.0.2.js:1
+msgid "Select the plan product clients must purchase to be members"
+msgstr "選擇產品加入至產品計劃成為正式會員"
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:528 class-initializer.php:531
+#: templates/shortcodes/shortcode-member-dashboard.php:65
+msgid "Settings"
+msgstr "設定"
+
+#. translators: Message to show to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:194
+msgid "Settings saved successfully"
+msgstr "已儲存設定"
+
+#. translators: Admin page table row action toggle button.
+#. translators: Admin page table row toggle.
+#: includes/tables/class-mp-wp-list-table.php:662
+#: includes/tables/class-mp-wp-list-table.php:1875
+msgid "Show more details"
+msgstr "顯示更多資料"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Sign Up"
+msgstr "登記"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Signup"
+msgstr "登記"
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:175
+msgid "Start Date"
+msgstr "開始日期"
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-commissions.php:513
+#: includes/tables/class-table-payment-requests.php:434
+#: includes/tables/class-table-payment-requests.php:1109
+#: templates/shortcodes/member-dashboard/commissions.php:83
+#: templates/shortcodes/member-dashboard/referees.php:73
+msgid "Status"
+msgstr "狀態"
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:215
+msgid "Status:"
+msgstr "狀態:"
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:189
+msgid "Stop Date"
+msgstr "停止日期"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:92
+msgid "Submit"
+msgstr "提交"
+
+#: functions.php:1386
+msgid "Subscribed"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:634
+msgid "Subscribed User Referred"
+msgstr "已付款基本套裝之介紹人"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:599
+msgid "There was an error sending the email. Please try again."
+msgstr "電郵有誤, 請再試"
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:495
+#: includes/helpers/class-ajax-public-helper.php:561
+msgid "This email or username is not recognized."
+msgstr "此電郵/用戶名稱有誤"
+
+#. Description of the plugin
+msgid ""
+"This plugin allows users to signup when they are referred by another user. "
+"Users can subscribe by buying a subscription plan. All subscribed users get "
+"a certain discount for all products. <b>Note</b>: The discount is not "
+"applied for admins (to avoid saving a discounted price in the database) and "
+"when the user is in the thank you page (to avoid applying to discount before "
+"getting the commission to pay the referrer)."
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:78
+msgid "Total amount to claim"
+msgstr "總需提現的佣金金額"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:644
+msgid "Total Commissions"
+msgstr "總佣金"
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:43
+msgid "Total commissions claimed"
+msgstr "總已提現的佣金"
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:32
+msgid "Total commissions made"
+msgstr "總佣金已被建立"
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:55
+msgid "Total commissions unclaimed"
+msgstr "佣金(未被發放)"
+
+#. translators: The total number of referees. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:19
+msgid "Total number of referees"
+msgstr "總被介紹人數目"
+
+#. translators: The total number of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:30
+msgid "Total number of subscribed referees"
+msgstr "已付基本套裝之被介紹人"
+
+#. translators: The total unsubscribed of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:41
+msgid "Total number of unsubscribed referees"
+msgstr "總尚未付款基本套裝之被介紹人"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:629
+msgid "Total User Referred"
+msgstr "總被介紹人數目"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:649
+msgid "Unclaimed Commissions"
+msgstr "未被發放之佣金"
+
+#: functions.php:1402
+msgid "Unpaid"
+msgstr ""
+
+#: functions.php:1388
+msgid "Unsubscribed"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:639
+msgid "Unsubscribed users referred"
+msgstr "未付款基本套裝之會員所推薦的會員"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:624
+msgid "User"
+msgstr "用戶"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:802
+msgid "User already exists with this email."
+msgstr "此電郵已存在"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:809
+msgid "User already exists with this username."
+msgstr "此用戶名稱已存在"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Username"
+msgstr "用戶名稱"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Username Or Email"
+msgstr "用戶名稱/電郵"
+
+#. translators: The page title.
+#. translators: Admin users page title.
+#: class-initializer.php:440 class-initializer.php:443
+#: includes/pages/class-admin-page-users.php:61
+msgid "Users"
+msgstr "用戶"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Verify Code"
+msgstr "驗證碼"
+
+#: includes/tables/class-table-payment-requests.php:692
+msgid "View Commissions"
+msgstr "查看佣金"
+
+#. translators: %s is the amount of the payment request the user has made.
+#: functions.php:1142
+msgid ""
+"We have received your withdrawal request. Your payment request of %s is "
+"being processed."
+msgstr "我們已收到您提取佣金的申請. 佣金 %s 將會被處理."
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "We will send you an email with a code to recover your password."
+msgstr "我們已發放重設密碼之驗證碼至您的電郵"
+
+#. translators: Shown in in the user when there is a pending payment request.
+#: functions.php:1441
+msgid "You already have a pending payment request."
+msgstr "您已有待處理的發放佣金申請項目"
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:224
+msgid "You are not allowed to do this action."
+msgstr "您暫不能操作此"
+
+#. translators: Error displayed while a user submitting payment request.
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:137
+#: includes/helpers/class-ajax-public-helper.php:223
+msgid "You are not logged in. "
+msgstr "您尚未登入"
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:145
+msgid "You are not subscribed. "
+msgstr "您尚未成功付款基本套裝"
+
+#. translators: %s is the minimum commission amount to withdraw.
+#: functions.php:1228
+msgid ""
+"You will be able to claim your commission once your total accumulated "
+"commission is upto %s"
+msgstr "當您的累計佣金總額達到 %s 便可以領取佣金了~"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:84
+#, fuzzy
+#| msgid "Your Account Number"
+msgid "Your account number"
+msgstr "您的銀行帳戶密碼"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:80
+#, fuzzy
+#| msgid "Your Bank Details"
+msgid "Your bank details"
+msgstr "戶口詳細資料"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:82
+#, fuzzy
+#| msgid "Your Bank's Name"
+msgid "Your bank name"
+msgstr "您的銀行名稱"
+
+#. translators: Success message when password is reset.
+#: includes/helpers/class-ajax-public-helper.php:426
+msgid "Your password has been reset successfully. You can now login."
+msgstr "您已更改密碼, 您現在可登入"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Your Referrer ID or Username"
+msgstr "您的介紹人ID/用戶名稱"
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:312
+#: includes/helpers/class-ajax-public-helper.php:792
+msgid "Your referrer is a member but has not purchased a subscription plan."
+msgstr "您的介紹人尚未付款基本套裝"
+
+#. translators: Success message displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:204
+msgid "Your request has been submitted successfully!"
+msgstr "您的申請已成功提交"
+
+#: assets/build/public/shortcode-signup-login-2.0.2.js:1
+msgid "Your Username or Email"
+msgstr "您的用戶名稱/電郵"

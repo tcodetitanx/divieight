@@ -1,0 +1,9 @@
+### Variable for url.
+### api_base = "https:\/\/test2.test/wp-json/hre-addon/v1/"
+
+POST https://test2.test/wp-json/hre-addon/v1/admin/save-settings
+Accept: "application/json"
+
+{
+ buyer_application_fee : "0.00",
+}

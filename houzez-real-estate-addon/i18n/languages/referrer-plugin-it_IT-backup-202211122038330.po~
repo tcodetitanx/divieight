@@ -1,0 +1,69 @@
+# Copyright (C) 2022 Pereere Codes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Referrer Plugin 1.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/referrer-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-12T20:16:39+00:00\n"
+"PO-Revision-Date: 2022-11-12 20:35+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: referrer-plugin\n"
+"\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.3; wp-6.1"
+
+#. Plugin Name of the plugin
+msgid "Referrer Plugin"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pereere.com/wordpress-plugins/referrer-plugin/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin allows users to signup when they are referred by another user. "
+"Users can subscribe by buying a subscription plan. All subscribed users get "
+"a certain discount for all products."
+msgstr ""
+
+#. Author of the plugin
+msgid "Pereere Codes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://embedx.io"
+msgstr ""
+
+#: functions.php:95 functions.php:142
+msgid "Member Dashboard"
+msgstr ""
+
+#: referrer-plugin.php:49
+msgid ""
+"<code>Referrer Plugin</code> requires <code>WooCommerce</code> to be "
+"installed and activated."
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:15
+#: assets/build/public/shortcode-signup-login-1.0.0.js:135
+msgid "Username Or Email"
+msgstr ""
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block title"
+msgid "Block Test"
+msgstr ""
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block description"
+msgid "Example block scaffolded with Create Block tool."
+msgstr ""

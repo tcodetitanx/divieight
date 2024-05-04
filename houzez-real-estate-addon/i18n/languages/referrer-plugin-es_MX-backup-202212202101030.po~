@@ -1,0 +1,1049 @@
+# Copyright (C) 2022 Pereere Codes
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Referrer Plugin 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/referrer-plugin\n"
+"Last-Translator: \n"
+"Language-Team: Español de México\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-12-20T17:51:31+00:00\n"
+"PO-Revision-Date: 2022-12-20 21:00+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: referrer-plugin\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.3; wp-6.1.1"
+
+#. translators: Message to display when WooCommerce is not active.
+#: referrer-plugin.php:50
+msgid ""
+"<code>Referrer Plugin</code> requires <code>WooCommerce</code> to be "
+"installed and activated."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:606
+msgid ""
+"A recover code has been sent to your email. Please check your inbox. The "
+"code will expire in 10 minutes."
+msgstr ""
+
+#. translators: Success message displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:836
+msgid "Account created successfully. You can now log in."
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:440
+msgid "Account Number"
+msgstr ""
+
+#. translators: Text displayed to the user when they are about to purchase a plan. %1$s is the plan price, %1$s is the discount percentage subscribers get for products.
+#: templates/shortcodes/shortcode-purchase-plan.php:28
+msgid ""
+"After purchasing this plan, you will become a subscribed member and gain "
+"%1$s percent discount on products on this site."
+msgstr ""
+
+#. translators: Date ago.
+#: includes/tables/class-table-commissions.php:712
+#: includes/tables/class-table-referees.php:693
+msgid "ago"
+msgstr "hace"
+
+#: includes/tables/class-table-admin-users.php:948
+msgid "All Users"
+msgstr ""
+
+#. translators: As in "Already have an account? Sign in here."
+#. translators: Text displayed below the reset password form. Link to go back to the login form.
+#. translators: Asking the user to login if they are already a member.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:790
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1176
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1327
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1476
+msgid "Already a member?"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:431
+msgid "Amount"
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:179
+msgid "Amount is not equal to commissions sum amount. "
+msgstr ""
+
+#. translators: Admin page table bulk action selector submit button.
+#: includes/tables/class-mp-wp-list-table.php:592
+msgid "Apply"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:437
+msgid "Bank Account Name"
+msgstr ""
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block description"
+msgid "Example block scaffolded with Create Block tool."
+msgstr ""
+
+#: assets/build/blocks/block-test/block.json
+#: assets/src/blocks/block-test/block.json
+msgctxt "block title"
+msgid "Block Test"
+msgstr ""
+
+#: includes/tables/class-mp-wp-list-table.php:553
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/tables/class-table-commissions.php:1085
+#: includes/tables/class-table-referees.php:994
+msgid "By Referee"
+msgstr ""
+
+#: includes/tables/class-table-commissions.php:1055
+#: includes/tables/class-table-referees.php:964
+msgid "By Referrer"
+msgstr ""
+
+#. translators: Displayed in admin page settings form.
+#: assets/build/admin/admin-page-settings-2.0.0.js:274
+msgid "Change Logo"
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#. translators: Button text displayed to the user when they are eligible to withdraw their commission.
+#: includes/shortcodes/class-shortcode-request-payment.php:76
+#: templates/shortcodes/shortcode-request-payment.php:17
+msgid "Claim your commissions"
+msgstr "Reclama tus comisiones"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:654
+msgid "Claimed Commissions"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.0.js:376
+msgid "Click here"
+msgstr ""
+
+#. translators: The table column title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:77
+msgid "Commission"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:507
+msgid "Commission Amount"
+msgstr ""
+
+#. translators: %1$s: Referrer user id, %2$s: Referee user id.
+#: functions.php:614
+msgid "Commission for %s"
+msgstr ""
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:486 class-initializer.php:489
+#: includes/pages/class-admin-page-commissions.php:52
+#: templates/shortcodes/shortcode-member-dashboard.php:51
+msgid "Commissions"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:443
+msgid "Commissions to pay for"
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:185
+msgid "Compact view"
+msgstr ""
+
+#. translators: Displayed in admin page settings form.
+#: assets/build/admin/admin-page-settings-2.0.0.js:265
+msgid "Company Logo"
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#. translators: Confirm password label for the password recovery form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:760
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1159
+msgid "Confirm Password"
+msgstr ""
+
+#. translators: %s is the total unpaid commissions for a user.
+#: functions.php:1202
+msgid "Congratulations!!! You can now claim your commissions of %s."
+msgstr ""
+
+#. translators: Message displayed to the user when the payment request has been paid.
+#: functions.php:1165
+msgid "Congratulations!!! Your commissions of %s has been paid."
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1060
+#: includes/tables/class-mp-wp-list-table.php:1068
+msgid "Current Page"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-commissions.php:519
+#: includes/tables/class-table-payment-requests.php:446
+#: templates/shortcodes/member-dashboard/commissions.php:95
+#: templates/shortcodes/member-dashboard/referees.php:61
+msgid "Date"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:181
+msgid "Date:"
+msgstr ""
+
+#. translators: Delete deposit action button.
+#. translators: Bulk action.
+#: includes/tables/class-table-admin-users.php:758
+#: includes/tables/class-table-payment-requests.php:1010
+msgid "Delete"
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:712
+msgid "Email"
+msgstr ""
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:254
+msgid "Error adding plan to cart. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:199
+msgid "Error: "
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:187
+msgid "Extended view"
+msgstr ""
+
+#. translators: Table filter button.
+#: includes/tables/class-table-admin-users.php:918
+msgid "Filter"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1066
+#: includes/tables/class-table-payment-requests.php:1110
+msgid "Filter by who requested the payment"
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:725
+msgid "First Name"
+msgstr "Nombre"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:86
+msgid "First name"
+msgstr "Nombre"
+
+#. translators: Accessibility text.
+#: includes/tables/class-mp-wp-list-table.php:1037
+msgid "First page"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.0.js:371
+msgid "Forgot your password?"
+msgstr ""
+
+#. translators: From date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:996
+msgid "From Date"
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:138
+msgid "Hello "
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:98
+msgid "Home"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pereere.com/wordpress-plugins/referrer-plugin/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https:://pereere.com"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:679
+msgid "Invalid email or password"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:660
+msgid "Invalid login details."
+msgstr ""
+
+#. translators: Message displayed when nonce is invalid during ajax request.
+#: class-initializer.php:653
+msgid "Invalid nonce"
+msgstr ""
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:235
+msgid "Invalid order."
+msgstr ""
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:232
+msgid "Invalid plan product. Set a plan product."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:506
+msgid "Invalid recover code."
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:302
+#: includes/helpers/class-ajax-public-helper.php:778
+msgid "Invalid referrer."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:384
+msgid "Invalid user"
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:736
+msgid "Last Name"
+msgstr "Apellido"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:88
+msgid "Last name"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1104
+msgid "Last page"
+msgstr ""
+
+#. translators: Button text to login.
+#. translators: Link to go back to the login form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:365
+#: assets/build/public/shortcode-signup-login-2.0.0.js:799
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1185
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1336
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1485
+msgid "Login"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:685
+msgid "Login Successful."
+msgstr ""
+
+#. translators: Bulk action. Mark payment as paid.
+#: includes/tables/class-table-payment-requests.php:1016
+msgid "Mark as Paid"
+msgstr ""
+
+#. translators: Bulk action. Mark payment as pending.
+#: includes/tables/class-table-payment-requests.php:1013
+msgid "Mark as Pending"
+msgstr ""
+
+#. translators: Member dashboard page title.
+#. translators: Member dashboard menu item title.
+#: functions.php:221 functions.php:270 functions.php:298
+#: templates/shortcodes/shortcode-member-dashboard.php:110
+msgid "Member Dashboard"
+msgstr "Panel de control para miembros"
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:90
+msgid "Middle name"
+msgstr ""
+
+#. translators: Displayed in admin page settings.
+#: assets/build/admin/admin-page-settings-2.0.0.js:233
+msgid "Minimum amount before commission claim"
+msgstr ""
+
+#. translators: The user's user id.
+#: templates/shortcodes/member-dashboard/settings.php:34
+msgid "My User ID"
+msgstr ""
+
+#. translators: The title of the user's username displayed in the user's dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:26
+msgid "My Username"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1091
+msgid "Next page"
+msgstr ""
+
+#. translators: No approved comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:832
+msgid "No approved comments"
+msgstr ""
+
+#. translators: No comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:775
+#: includes/tables/class-mp-wp-list-table.php:835
+#: includes/tables/class-mp-wp-list-table.php:884
+msgid "No comments"
+msgstr ""
+
+#. translators: No pending comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:881
+msgid "No pending comments"
+msgstr ""
+
+#. translators: Displayed in the user dashboard settings page when the user has no referrer.
+#: templates/shortcodes/member-dashboard/settings.php:48
+msgid "No Referrer"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.0.js:378
+msgid "Not yet a member?"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:522
+msgid "Order Made"
+msgstr ""
+
+#. translators: Error when the order is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:763
+msgid "Order not found"
+msgstr ""
+
+#: functions.php:1404 includes/tables/class-table-payment-requests.php:1127
+msgid "Paid"
+msgstr "Pagado"
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:449
+msgid "Paid Date"
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#. translators: Password label for the password recovery form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:358
+#: assets/build/public/shortcode-signup-login-2.0.0.js:749
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1149
+msgid "Password"
+msgstr "Contraseña"
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:769
+msgid "Password and \"Confirm Password\" does not match"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:414
+msgid "Password and confirm password do not match."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:581
+msgid "Password Reset Code"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:405
+msgid "Password should not be empty."
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:516
+msgid "Payment request(s) deleted successfully!"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:566
+msgid "Payment request(s) marked as paid."
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:541
+msgid "Payment request(s) marked as pending."
+msgstr ""
+
+#. translators: The page title.
+#: class-initializer.php:508 class-initializer.php:511
+#: includes/pages/class-admin-page-payment-requests.php:53
+msgid "Payment Requests"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1123
+msgid "Pending"
+msgstr ""
+
+#. translators: Displayed in admin page settings.
+#: assets/build/admin/admin-page-settings-2.0.0.js:253
+msgid ""
+"Percentage Commission to pay referrers for each product bought by their "
+"referrals"
+msgstr ""
+
+#. translators: Displayed in admin page settings.
+#: assets/build/admin/admin-page-settings-2.0.0.js:243
+msgid "Percentage discount for subscribers"
+msgstr ""
+
+#. Author of the plugin
+msgid "Pereere Codes"
+msgstr ""
+
+#. translators: Success message displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:261
+msgid "Plan product added to the cart.."
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:726
+msgid "Please provide a valid email"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:750
+msgid "Please provide a valid first name"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:756
+msgid "Please provide a valid last name"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:647
+#: includes/helpers/class-ajax-public-helper.php:738
+msgid "Please provide a valid password"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:744
+msgid "Please provide a valid password confirmation"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:732
+msgid "Please provide a valid username"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:469
+#: includes/helpers/class-ajax-public-helper.php:545
+#: includes/helpers/class-ajax-public-helper.php:639
+msgid "Please provide a valid Username or Email"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:124
+msgid "Please provide minimum amount before commission claim"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:139
+msgid "Please provide percentage commission for referrer"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:133
+msgid "Please provide percentage discount for referees"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:478
+msgid "Please provide the recover code sent to your email."
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:118
+msgid "Please select a plan product"
+msgstr ""
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:164
+msgid "Please select a valid company logo."
+msgstr ""
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:154
+msgid "Please select a valid product."
+msgstr ""
+
+#. translators: Shown in the admin when the company logo is not set.
+#: functions.php:1544
+msgid "Please set the company logo in the Referrer Plugin settings page."
+msgstr ""
+
+#. translators: Shown in the admin when the company logo is not found.
+#: functions.php:1565
+msgid ""
+"Please the company logo set in the Referrer Plugin settings page is not "
+"found."
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1051
+msgid "Previous page"
+msgstr ""
+
+#. translators: Button text to send a recovery email.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1321
+msgid "Proceed"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:525
+msgid "Product Bought"
+msgstr ""
+
+#. translators: Error when the product is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:735
+msgid "Product not found"
+msgstr ""
+
+#. translators: Displayed in admin page settings.
+#: assets/build/admin/admin-page-settings-2.0.0.js:214
+msgid "Product Plan"
+msgstr ""
+
+#. translators: Title displayed to the user when they are eligible to purchase a plan (Title of the popup).
+#. translators: Button text to purchase a plan.
+#: templates/shortcodes/shortcode-purchase-plan.php:24
+#: assets/build/public/shortcode-purchase-plan-2.0.0.js:293
+msgid "Purchase Plan"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:514
+msgid "Recover code has expired."
+msgstr ""
+
+#. translators: Success message when code is valid while trying to recover password.
+#: includes/helpers/class-ajax-public-helper.php:441
+msgid "Recover code is valid. You can now reset your password."
+msgstr ""
+
+#. translators: Label for the password recovery code input.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1455
+msgid "Recovery Code"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-referees.php:640
+#: templates/shortcodes/member-dashboard/commissions.php:89
+#: templates/shortcodes/member-dashboard/referees.php:67
+msgid "Referee"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:516
+msgid "Referee (The buyer)"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:649
+msgid "Referee Signup Date"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-referees.php:643
+msgid "Referee Status"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:193
+msgid "Referee:"
+msgstr ""
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:464 class-initializer.php:467
+#: includes/pages/class-admin-page-referees.php:61
+#: templates/shortcodes/shortcode-member-dashboard.php:58
+msgid "Referees"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:646
+msgid "Referred By"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:510
+msgid "Referrer (Commission Owner)"
+msgstr ""
+
+#. translators: Success message displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:320
+msgid "Referrer Found"
+msgstr ""
+
+#. Plugin Name of the plugin
+msgid "Referrer Plugin"
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:293
+msgid "Referrer should not be empty."
+msgstr ""
+
+#. translators: The user's referrer id and username. This played in the user dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:42
+msgid "Referrer User ID / Username"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#. translators: To date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:659
+#: includes/tables/class-table-admin-users.php:1007
+msgid "Registered"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:428
+msgid "Requested By"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1072
+msgid "Requested by"
+msgstr ""
+
+#. translators: Button text to reset password form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1170
+msgid "Reset Password"
+msgstr ""
+
+#. translators: Search input placeholder.
+#: includes/tables/class-table-commissions.php:984
+#: includes/tables/class-table-payment-requests.php:990
+#: includes/tables/class-table-referees.php:893
+msgid "Search Referees"
+msgstr ""
+
+#. translators: Displayed in admin page settings form while selecting company logo.
+#: assets/build/admin/admin-page-settings-2.0.0.js:150
+msgid "Select"
+msgstr ""
+
+#. translators: table header checkbox label (Admin page).
+#: includes/tables/class-mp-wp-list-table.php:1384
+msgid "Select All"
+msgstr ""
+
+#. translators: accessibility text
+#: includes/tables/class-mp-wp-list-table.php:539
+msgid "Select bulk action"
+msgstr ""
+
+#. translators: Displayed in admin page settings form when selecting company logo.
+#: assets/build/admin/admin-page-settings-2.0.0.js:149
+msgid "Select Company Logo"
+msgstr ""
+
+#: assets/build/admin/admin-page-settings-2.0.0.js:230
+msgid "Select the plan product clients must purchase to be members"
+msgstr ""
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:530 class-initializer.php:533
+#: templates/shortcodes/shortcode-member-dashboard.php:65
+msgid "Settings"
+msgstr ""
+
+#. translators: Message to show to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:194
+msgid "Settings saved successfully"
+msgstr ""
+
+#. translators: Admin page table row action toggle button.
+#. translators: Admin page table row toggle.
+#: includes/tables/class-mp-wp-list-table.php:662
+#: includes/tables/class-mp-wp-list-table.php:1875
+msgid "Show more details"
+msgstr ""
+
+#. translators: Button text in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:783
+msgid "Sign Up"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.0.js:386
+msgid "Signup"
+msgstr ""
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:175
+msgid "Start Date"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-commissions.php:513
+#: includes/tables/class-table-payment-requests.php:434
+#: includes/tables/class-table-payment-requests.php:1116
+#: templates/shortcodes/member-dashboard/commissions.php:83
+#: templates/shortcodes/member-dashboard/referees.php:73
+msgid "Status"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:215
+msgid "Status:"
+msgstr ""
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:189
+msgid "Stop Date"
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:92
+msgid "Submit"
+msgstr ""
+
+#: functions.php:1386
+msgid "Subscribed"
+msgstr "Subscrito"
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:634
+msgid "Subscribed User Referred"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:596
+msgid "There was an error sending the email. Please try again."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:492
+#: includes/helpers/class-ajax-public-helper.php:558
+msgid "This email or username is not recognized."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin allows users to signup when they are referred by another user. "
+"Users can subscribe by buying a subscription plan. All subscribed users get "
+"a certain discount for all products. <b>Note</b>: The discount is not "
+"applied for admins (to avoid saving a discounted price in the database) and "
+"when the user is in the thank you page (to avoid applying to discount before "
+"getting the commission to pay the referrer)."
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:78
+msgid "Total amount to claim"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:644
+msgid "Total Commissions"
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:43
+msgid "Total commissions claimed"
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:32
+msgid "Total commissions made"
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:55
+msgid "Total commissions unclaimed"
+msgstr ""
+
+#. translators: The total number of referees. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:19
+msgid "Total number of referees"
+msgstr ""
+
+#. translators: The total number of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:30
+msgid "Total number of subscribed referees"
+msgstr ""
+
+#. translators: The total unsubscribed of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:41
+msgid "Total number of unsubscribed referees"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:629
+msgid "Total User Referred"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:649
+msgid "Unclaimed Commissions"
+msgstr ""
+
+#: functions.php:1402
+msgid "Unpaid"
+msgstr "Impagado"
+
+#: functions.php:1388
+msgid "Unsubscribed"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:639
+msgid "Unsubscribed users referred"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:624
+msgid "User"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:799
+msgid "User already exists with this email."
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:806
+msgid "User already exists with this username."
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:702
+msgid "Username"
+msgstr ""
+
+#: assets/build/public/shortcode-signup-login-2.0.0.js:349
+msgid "Username Or Email"
+msgstr "Nombre de usuario o correo electrónico"
+
+#. translators: The page title.
+#. translators: Admin users page title.
+#: class-initializer.php:442 class-initializer.php:445
+#: includes/pages/class-admin-page-users.php:61
+msgid "Users"
+msgstr ""
+
+#. translators: Button text to verify the recovery code.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1470
+msgid "Verify Code"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:692
+msgid "View Commissions"
+msgstr ""
+
+#. translators: %s is the amount of the payment request the user has made.
+#: functions.php:1142
+msgid ""
+"We have received your withdrawal request. Your payment request of %s is "
+"being processed."
+msgstr ""
+
+#. translators: Asking users for their email or password while trying to recover their password.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1318
+msgid "We will send you an email with a code to recover your password."
+msgstr ""
+
+#. translators: Shown in in the user when there is a pending payment request.
+#: functions.php:1442
+msgid "You already have a pending payment request."
+msgstr ""
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:224
+msgid "You are not allowed to do this action."
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:136
+#: includes/helpers/class-ajax-public-helper.php:224
+msgid "You are not logged in. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:144
+msgid "You are not subscribed. "
+msgstr ""
+
+#. translators: %s is the minimum commission amount to withdraw.
+#: functions.php:1228
+msgid ""
+"You will be able to claim your commission once your total accumulated "
+"commission is upto %s"
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:84
+msgid "Your account number"
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:80
+msgid "Your bank details"
+msgstr ""
+
+#. translators : Displayed in the payment request form in the member dashboard.
+#: includes/shortcodes/class-shortcode-request-payment.php:82
+#, fuzzy
+#| msgid "Your Bank's Name"
+msgid "Your bank name"
+msgstr "El nombre de su banco"
+
+#. translators: Success message when password is reset.
+#: includes/helpers/class-ajax-public-helper.php:423
+msgid "Your password has been reset successfully. You can now login."
+msgstr ""
+
+#. translators: Input text label in the signup form.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:771
+msgid "Your Referrer ID or Username"
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:313
+#: includes/helpers/class-ajax-public-helper.php:789
+msgid "Your referrer is a member but has not purchased a subscription plan."
+msgstr ""
+
+#. translators: Success message displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:205
+msgid "Your request has been submitted successfully!"
+msgstr ""
+
+#. translators: Asking users for their email or password while trying to recover their password.
+#: assets/build/public/shortcode-signup-login-2.0.0.js:1306
+msgid "Your Username or Email"
+msgstr ""

@@ -1,0 +1,1835 @@
+# Copyright (C) 2023 Pereere Codes (mpereere@gmail.com)
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Beauty and Loyalty Point 1.1.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/beauty-and-"
+"loyalty-points\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Mexico)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-08-29T13:08:59+00:00\n"
+"PO-Revision-Date: 2023-08-29 13:10+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: beauty-loyalty-point\n"
+"\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.6.3; wp-6.3"
+
+#. Plugin Name of the plugin
+#. translators: Tittle Message to display when WooCommerce is not active.
+#: beauty-and-loyalty-points.php:61
+msgid "Beauty and Loyalty Point"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://pereere.com/wordpress-plugins/beauty-and-loyalty-point"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This plugin comes with detailed feature that allows the admin to create "
+"services they render in their store (maybe physical) and then indicate the "
+"days and tme they'll be operational. Users can book those services and "
+"manage them in their dashboard. Users will get loyalty point from their "
+"activities on the site including purchasing items, booking services, "
+"clicking on the facial analysis button, or manually assigned by the admin. "
+"Users get their admin dashboard to manage their bookings, loyalty points and "
+"do their facial analysis. This plugin comes with full user signup, login and "
+"password recorvery features."
+msgstr ""
+
+#. Author of the plugin
+msgid "Pereere Codes (mpereere@gmail.com)"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https:://pereere.com"
+msgstr ""
+
+#. translators: Message to display when WooCommerce is not active.
+#: beauty-and-loyalty-points.php:50
+msgid ""
+"<code>Beauty Loyalty Point</code> requires <code>WooCommerce</code> to be "
+"installed and activated."
+msgstr ""
+
+#. translators: The page title.
+#: class-initializer.php:456 class-initializer.php:459
+msgid "Availability"
+msgstr ""
+
+#. translators: The page title.
+#. translators: The menu title in the user dashboard.
+#: class-initializer.php:478 class-initializer.php:481
+#: templates/shortcodes/shortcode-member-dashboard.php:65
+msgid "Settings"
+msgstr ""
+
+#. translators: Message displayed when nonce is invalid during ajax request.
+#: class-initializer.php:607
+msgid "Invalid nonce"
+msgstr ""
+
+#. translators: %s: amount.
+#: functions.php:565
+msgid "Refund for over charge while paying for order. %s"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/cpt/class-cpt-bookings.php:259
+#: includes/tables/class-table-admin-users.php:624
+msgid "User"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/cpt/class-cpt-bookings.php:260
+#: includes/cpt/class-cpt-bookings.php:301
+#: includes/tables/class-table-commissions.php:513
+#: includes/tables/class-table-payment-requests.php:434
+#: includes/tables/class-table-payment-requests.php:1109
+#: templates/shortcodes/member-dashboard/commissions.php:83
+#: templates/shortcodes/member-dashboard/referees.php:73 translations.php:63
+msgid "Status"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:261
+#: includes/taxonomies/class-taxonomy-services.php:61
+#: includes/taxonomies/class-taxonomy-services.php:63
+msgid "Services"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:297
+msgid "Image"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:298
+msgid "Added By"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:299
+msgid "Type"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:300
+msgid "Products"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:302
+msgid "Order"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:303
+msgid "Created Date"
+msgstr ""
+
+#: includes/cpt/class-cpt-bookings.php:304
+msgid "Approved Date"
+msgstr ""
+
+#. translators: %1$s is the number of services.
+#: includes/cpt/class-cpt-bookings.php:375
+msgctxt "Number of services"
+msgid "%1$s Service"
+msgid_plural "%1$s Services"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/cpt/class-cpt-bookings.php:442
+#: includes/cpt/class-cpt-bookings.php:443 translations.php:69
+msgid "Bookings"
+msgstr ""
+
+#: includes/cpt/class-cpt-users.php:55
+msgid "Balance Sheet"
+msgstr ""
+
+#: includes/cpt/class-cpt-users.php:56
+msgid "Composer Card"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:118
+msgid "Please select a plan product"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:124
+msgid "Please provide minimum amount before commission claim"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:133
+msgid "Please provide percentage discount for referees"
+msgstr ""
+
+#. translators: Error message while saving admin settings.
+#: includes/helpers/class-ajax-helper.php:139
+msgid "Please provide percentage commission for referrer"
+msgstr ""
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:154
+msgid "Please select a valid product."
+msgstr ""
+
+#. translators: Errors displayed to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:164
+msgid "Please select a valid company logo."
+msgstr ""
+
+#. translators: Message to show to the admin while saving the plan product.
+#: includes/helpers/class-ajax-helper.php:194
+msgid "Settings saved successfully"
+msgstr ""
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:224
+msgid "You are not allowed to do this action."
+msgstr ""
+
+#. translators:(No need to translate this) Error message to show to the admin while adding the commission to the referrer.
+#: includes/helpers/class-ajax-helper.php:235
+msgid "Invalid order."
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:137
+#: includes/helpers/class-ajax-public-helper.php:223
+msgid "You are not logged in. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:145
+msgid "You are not subscribed. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:178
+msgid "Amount is not equal to commissions sum amount. "
+msgstr ""
+
+#. translators: Error displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:198
+msgid "Error: "
+msgstr ""
+
+#. translators: Success message displayed while a user submitting payment request.
+#: includes/helpers/class-ajax-public-helper.php:204
+msgid "Your request has been submitted successfully!"
+msgstr ""
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:231
+msgid "Invalid plan product. Set a plan product."
+msgstr ""
+
+#. translators: Error displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:253
+msgid "Error adding plan to cart. "
+msgstr ""
+
+#. translators: Success message displayed while a user purchasing a plan.
+#: includes/helpers/class-ajax-public-helper.php:260
+msgid "Plan product added to the cart.."
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:292
+msgid "Referrer should not be empty."
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:301
+#: includes/helpers/class-ajax-public-helper.php:781
+msgid "Invalid referrer."
+msgstr ""
+
+#. translators: Error displayed to the user is recovering password.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:312
+#: includes/helpers/class-ajax-public-helper.php:792
+msgid "Your referrer is a member but has not purchased a subscription plan."
+msgstr ""
+
+#. translators: Success message displayed to the user is recovering password.
+#: includes/helpers/class-ajax-public-helper.php:319
+msgid "Referrer Found"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:387
+msgid "Invalid user"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:408
+msgid "Password should not be empty."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:417
+msgid "Password and confirm password do not match."
+msgstr ""
+
+#. translators: Success message when password is reset.
+#: includes/helpers/class-ajax-public-helper.php:426
+msgid "Your password has been reset successfully. You can now login."
+msgstr ""
+
+#. translators: Success message when code is valid while trying to recover password.
+#: includes/helpers/class-ajax-public-helper.php:444
+msgid "Recover code is valid. You can now reset your password."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:472
+#: includes/helpers/class-ajax-public-helper.php:548
+#: includes/helpers/class-ajax-public-helper.php:642
+msgid "Please provide a valid Username or Email"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:481
+msgid "Please provide the recover code sent to your email."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:495
+#: includes/helpers/class-ajax-public-helper.php:561
+msgid "This email or username is not recognized."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:509
+msgid "Invalid recover code."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:517
+msgid "Recover code has expired."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:584
+msgid "Password Reset Code"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:599
+msgid "There was an error sending the email. Please try again."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:609
+msgid ""
+"A recover code has been sent to your email. Please check your inbox. The "
+"code will expire in 10 minutes."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:650
+#: includes/helpers/class-ajax-public-helper.php:741
+msgid "Please provide a valid password"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:663
+msgid "Invalid login details."
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:682
+msgid "Invalid email or password"
+msgstr ""
+
+#. translators: Error displayed to the user during password recovery.
+#: includes/helpers/class-ajax-public-helper.php:688
+msgid "Login Successful."
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:735
+msgid "Please provide a valid username"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:747
+msgid "Please provide a valid password confirmation"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:753
+msgid "Please provide a valid first name"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:759
+msgid "Please provide a valid last name"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:772
+msgid "Password and \"Confirm Password\" does not match"
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:802
+msgid "User already exists with this email."
+msgstr ""
+
+#. translators: Error displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:809
+msgid "User already exists with this username."
+msgstr ""
+
+#. translators: Error displayed to the user during signup if they provided their email.
+#: includes/helpers/class-ajax-public-helper.php:821
+msgid "Please provide a valid email."
+msgstr ""
+
+#. translators: Success message displayed to the user during signup.
+#: includes/helpers/class-ajax-public-helper.php:852
+msgid "Account created successfully. You can now log in."
+msgstr ""
+
+#: includes/helpers/class-facial-analysis-helper.php:40
+msgid "You have already done facial analysis today."
+msgstr ""
+
+#. translators: %1$s is the user id, %2$s is the year, %3$s is the month, %4$s is the day
+#: includes/helpers/class-facial-analysis-helper.php:50
+msgid "Facial Analysis for user %1$s on %2$s-%3$s-%4$s"
+msgstr ""
+
+#: includes/helpers/class-facial-analysis-helper.php:65
+#: includes/helpers/class-facial-analysis-helper.php:90
+msgid "Failed to record facial analysis."
+msgstr ""
+
+#. translators: %1$s is the user id, %2$s is the year, %3$s is the month, %4$s is the day
+#: includes/helpers/class-facial-analysis-helper.php:78
+msgid "For Facial analysis on %1$s-%2$s-%3$s"
+msgstr ""
+
+#: includes/helpers/class-facial-analysis-helper.php:130
+msgid "You have not done any facial analysis today."
+msgstr ""
+
+#. translators: %1$s is the user id, %2$s is the year, %3$s is the month, %4$s is the day
+#: includes/helpers/class-point-gift-helper.php:70
+#: includes/helpers/class-point-gift-helper.php:83
+msgid "Gift point for order %1$s on %2$s-%3$s-%4$s"
+msgstr ""
+
+#: includes/meta-boxes/class-meta-box-booking.php:47
+msgid "Booking Detail"
+msgstr ""
+
+#: includes/meta-boxes/class-meta-box-booking.php:69
+msgid "No Booking Found."
+msgstr ""
+
+#: includes/meta-boxes/class-meta-box-booking.php:80
+#: includes/pages/class-admin-page-settings.php:58
+msgid "Loading..."
+msgstr ""
+
+#: includes/model/class-available-day.php:53
+msgid "Invalid date or ID."
+msgstr ""
+
+#: includes/model/class-available-day.php:92
+msgid "Invalid date"
+msgstr ""
+
+#: includes/model/class-available-day.php:100
+msgid "Invalid service IDs"
+msgstr ""
+
+#. translators: %s: time range index
+#: includes/model/class-available-day.php:500
+msgid "Missing required keys in time range %s."
+msgstr ""
+
+#. translators: %s: time range index
+#: includes/model/class-available-day.php:514
+msgid "Invalid time range %s. Acceptable range is 0000-2400."
+msgstr ""
+
+#. translators: %s: time range index
+#: includes/model/class-available-day.php:526
+msgid "Stop time must be greater than start time in time range %s."
+msgstr ""
+
+#: includes/model/class-booking-service.php:72
+msgid "Booking service not found."
+msgstr ""
+
+#: includes/model/class-booking.php:156
+msgid "Invalid service ID"
+msgstr ""
+
+#: includes/model/class-booking.php:189
+msgid "Time range not available"
+msgstr ""
+
+#: includes/model/class-booking.php:235
+msgid "Invalid date: %s"
+msgstr ""
+
+#. translators: The menu title in the user dashboard.
+#: includes/pages/class-admin-page-commissions.php:52
+#: templates/shortcodes/shortcode-member-dashboard.php:51
+msgid "Commissions"
+msgstr ""
+
+#: includes/pages/class-admin-page-payment-requests.php:53
+msgid "Payment Requests"
+msgstr ""
+
+#. translators: The menu title in the user dashboard.
+#: includes/pages/class-admin-page-referees.php:61
+#: templates/shortcodes/shortcode-member-dashboard.php:58
+msgid "Referees"
+msgstr ""
+
+#. translators: Admin users page title.
+#: includes/pages/class-admin-page-users.php:61
+msgid "Users"
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:67
+#: includes/rest-api/class-rest-auth.php:98
+#: includes/rest-api/class-rest-auth.php:140
+msgid "The username or EMAIL of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:110
+msgid "The OTP that was sent to the Email."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:409
+msgid "The username of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:424
+msgid "The email of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:433
+msgid "The first name of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:444
+msgid "The last name of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:456
+msgid "The password of the user."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:545
+#: includes/rest-api/class-rest-auth.php:598
+#: includes/rest-api/class-rest-auth.php:626
+#: includes/rest-api/class-rest-auth.php:656
+#: includes/rest-api/class-rest-auth.php:687
+msgid "Error unknown . "
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:568
+#: includes/rest-api/class-rest-auth.php:594
+msgid "Invalid email or username or password"
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:617
+msgid "OTP sent successfully."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:647
+msgid "OTP Verified."
+msgstr ""
+
+#: includes/rest-api/class-rest-auth.php:678
+msgid "Password Reset Successful."
+msgstr ""
+
+#: includes/rest-api/class-rest-available-day.php:201
+#: includes/rest-api/class-rest-booking.php:362
+#: includes/rest-api/class-rest-calendar.php:123
+#: includes/rest-api/class-rest-loyalty-point.php:281
+#: includes/rest-api/class-rest-service.php:123
+msgid "You are not allowed to read this wedding. Its not your wedding."
+msgstr ""
+
+#: includes/rest-api/class-rest-available-day.php:210
+#: includes/rest-api/class-rest-booking.php:371
+#: includes/rest-api/class-rest-calendar.php:132
+#: includes/rest-api/class-rest-loyalty-point.php:290
+#: includes/rest-api/class-rest-service.php:132
+msgid "You are not allowed to read this wedding. You are not an officiant."
+msgstr ""
+
+#: includes/rest-api/class-rest-available-day.php:233
+#: includes/rest-api/class-rest-available-day.php:258
+#: includes/rest-api/class-rest-booking.php:394
+#: includes/rest-api/class-rest-loyalty-point.php:313
+#: includes/rest-api/class-rest-service.php:155
+msgid "The date to get the available day for."
+msgstr ""
+
+#: includes/rest-api/class-rest-available-day.php:418
+#: includes/rest-api/class-rest-calendar.php:388
+#: includes/rest-api/class-rest-service.php:337
+msgid "The id is required to update an item."
+msgstr ""
+
+#: includes/rest-api/class-rest-available-day.php:427
+#: includes/rest-api/class-rest-calendar.php:397
+#: includes/rest-api/class-rest-service.php:346
+msgid "The wedding status is not valid."
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:213
+msgid "The content of the remark."
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:240
+msgid "The id of the booking."
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:246
+msgid "The status of the booking. Allowed values are: \"all\","
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:636
+#: includes/rest-api/class-rest-loyalty-point.php:637
+#: includes/rest-api/class-rest-service.php:198
+msgid "No services found."
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:712
+#: includes/rest-api/class-rest-loyalty-point.php:683
+msgid ""
+"You are not allowed to attach signature to this booking because you are not "
+"the owner of this booking."
+msgstr ""
+
+#: includes/rest-api/class-rest-booking.php:749
+msgid "No remark found."
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:150
+msgid "The year to get the calendar for."
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:156
+msgid "The month to get the calendar for."
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:161
+msgid "The title must be a string."
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:168
+msgid "The number of years to return"
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:196
+msgid "The officiant id must be provided and be correct."
+msgstr ""
+
+#: includes/rest-api/class-rest-calendar.php:197
+msgid "The officiant id. "
+msgstr ""
+
+#: includes/rest-api/class-rest-loyalty-point.php:148
+msgid "The description of the loyalty point."
+msgstr ""
+
+#: includes/rest-api/class-rest-loyalty-point.php:213
+msgid "The status of the loyalty point."
+msgstr ""
+
+#: includes/rest-api/class-rest-loyalty-point.php:406
+#: includes/rest-api/class-rest-loyalty-point.php:485
+msgid "You must be loged in."
+msgstr ""
+
+#: includes/services/class-user-service.php:60
+#: includes/services/class-user-service.php:124
+#: includes/services/class-user-service.php:173
+#: includes/services/class-user-service.php:427
+msgid "User not found."
+msgstr ""
+
+#: includes/services/class-user-service.php:196
+msgid "OTP for login"
+msgstr ""
+
+#: includes/services/class-user-service.php:199
+msgid "Hi %1$s, Please use the code below to reset your password."
+msgstr ""
+
+#: includes/services/class-user-service.php:204
+msgid "Note"
+msgstr ""
+
+#: includes/services/class-user-service.php:204
+msgid "This code will expire within 10 minutes."
+msgstr ""
+
+#: includes/services/class-user-service.php:222
+msgid "We could not send OTP to your email. Please try again later."
+msgstr ""
+
+#: includes/services/class-user-service.php:257
+msgid "You should go through the right channel"
+msgstr ""
+
+#: includes/services/class-user-service.php:265
+msgid "OTP does not match."
+msgstr ""
+
+#: includes/services/class-user-service.php:548
+msgid ""
+"You have exceeded the limit of OTP verification attempts. Please try again "
+"after 10 minutes."
+msgstr ""
+
+#: includes/services/class-user-service.php:573
+msgid "The OTP has expired. Please try again."
+msgstr ""
+
+#: includes/services/class-user-service.php:617
+msgid "Username must be between 4 and 30 characters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:620
+msgid "Username must contain only letters, numbers and underscores . "
+msgstr ""
+
+#: includes/services/class-user-service.php:636
+msgid "Password must be between 6 and 30 characters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:652
+msgid "First name must be between 2 and 30 characters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:655
+msgid "First name must contain only letters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:671
+msgid "Last name must be between 2 and 30 characters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:674
+msgid "Last name must contain only letters . "
+msgstr ""
+
+#: includes/services/class-user-service.php:690
+msgid "Email is not valid . "
+msgstr ""
+
+#: includes/services/class-user-table-points-service.php:48 translations.php:13
+msgid "Loyalty Points"
+msgstr ""
+
+#: includes/services/class-user-table-points-service.php:72
+msgid "View/Edit"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:89
+#: includes/shortcodes/class-shortcode-signup-login.php:124
+#: includes/shortcodes/class-shortcode-user-dashboard.php:92
+msgid "Username Or Email"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:91
+#: includes/shortcodes/class-shortcode-signup-login.php:126
+#: includes/shortcodes/class-shortcode-user-dashboard.php:94
+#: translations.php:19
+msgid "Password"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:93
+#: includes/shortcodes/class-shortcode-signup-login.php:128
+#: includes/shortcodes/class-shortcode-user-dashboard.php:96
+#: translations.php:20
+msgid "Login"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:95
+#: includes/shortcodes/class-shortcode-signup-login.php:130
+#: includes/shortcodes/class-shortcode-user-dashboard.php:98
+#: translations.php:21
+msgid "Forgot your password?"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:97
+#: includes/shortcodes/class-shortcode-signup-login.php:132
+#: includes/shortcodes/class-shortcode-user-dashboard.php:100
+msgid "Click here"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:99
+#: includes/shortcodes/class-shortcode-signup-login.php:134
+#: includes/shortcodes/class-shortcode-user-dashboard.php:102
+#: translations.php:23
+msgid "Not yet a member?"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:101
+#: includes/shortcodes/class-shortcode-signup-login.php:136
+#: includes/shortcodes/class-shortcode-user-dashboard.php:104
+#: translations.php:24
+msgid "Signup"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:103
+#: includes/shortcodes/class-shortcode-signup-login.php:138
+#: includes/shortcodes/class-shortcode-user-dashboard.php:106
+#: translations.php:37
+msgid "Username"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:105
+#: includes/shortcodes/class-shortcode-signup-login.php:140
+#: includes/shortcodes/class-shortcode-user-dashboard.php:108
+msgid "Email (Optional)"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:107
+#: includes/shortcodes/class-shortcode-signup-login.php:142
+#: includes/shortcodes/class-shortcode-user-dashboard.php:110
+#: translations.php:39
+msgid "First Name"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:109
+#: includes/shortcodes/class-shortcode-signup-login.php:144
+#: includes/shortcodes/class-shortcode-user-dashboard.php:112
+#: translations.php:40
+msgid "Last Name"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:111
+#: includes/shortcodes/class-shortcode-signup-login.php:146
+#: includes/shortcodes/class-shortcode-user-dashboard.php:114
+#: translations.php:26
+msgid "Confirm Password"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:113
+#: includes/shortcodes/class-shortcode-signup-login.php:148
+#: includes/shortcodes/class-shortcode-user-dashboard.php:116
+msgid "Your Referrer ID or Username"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:115
+#: includes/shortcodes/class-shortcode-signup-login.php:150
+#: includes/shortcodes/class-shortcode-user-dashboard.php:118
+#: translations.php:28
+msgid "Already a member?"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:117
+#: includes/shortcodes/class-shortcode-signup-login.php:152
+#: includes/shortcodes/class-shortcode-user-dashboard.php:120
+msgid "Your Username or Email"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:119
+#: includes/shortcodes/class-shortcode-signup-login.php:154
+#: includes/shortcodes/class-shortcode-user-dashboard.php:122
+msgid "Recovery Code"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:121
+#: includes/shortcodes/class-shortcode-booking.php:132
+#: includes/shortcodes/class-shortcode-signup-login.php:156
+#: includes/shortcodes/class-shortcode-signup-login.php:167
+#: includes/shortcodes/class-shortcode-user-dashboard.php:124
+#: includes/shortcodes/class-shortcode-user-dashboard.php:135
+msgid "Enter the code you received in your email."
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:123
+#: includes/shortcodes/class-shortcode-signup-login.php:158
+#: includes/shortcodes/class-shortcode-user-dashboard.php:126
+msgid "Verify Code"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:125
+#: includes/shortcodes/class-shortcode-signup-login.php:160
+#: includes/shortcodes/class-shortcode-user-dashboard.php:128
+msgid "We will send you an email with a code to recover your password."
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:130
+#: includes/shortcodes/class-shortcode-signup-login.php:165
+#: includes/shortcodes/class-shortcode-user-dashboard.php:133
+#: translations.php:31
+msgid "Proceed"
+msgstr ""
+
+#. translators : Displayed in the Login Signup Page.
+#: includes/shortcodes/class-shortcode-booking.php:134
+#: includes/shortcodes/class-shortcode-signup-login.php:169
+#: includes/shortcodes/class-shortcode-user-dashboard.php:137
+#: translations.php:27
+msgid "Reset Password"
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:185
+msgid "Compact view"
+msgstr ""
+
+#. translators: Table view mode. (Admin page)
+#: includes/tables/class-mp-wp-list-table.php:187
+msgid "Extended view"
+msgstr ""
+
+#. translators: (Admin page). Displayed when no items are available for a table.
+#: includes/tables/class-mp-wp-list-table.php:365
+msgid "No items found."
+msgstr ""
+
+#. translators: accessibility text
+#: includes/tables/class-mp-wp-list-table.php:539
+msgid "Select bulk action"
+msgstr ""
+
+#: includes/tables/class-mp-wp-list-table.php:553
+msgid "Bulk Actions"
+msgstr ""
+
+#. translators: Admin page table bulk action selector submit button.
+#: includes/tables/class-mp-wp-list-table.php:592
+msgid "Apply"
+msgstr ""
+
+#. translators: Admin page table row action toggle button.
+#. translators: Admin page table row toggle.
+#: includes/tables/class-mp-wp-list-table.php:662
+#: includes/tables/class-mp-wp-list-table.php:1875
+msgid "Show more details"
+msgstr ""
+
+#. translators: No comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:775
+#: includes/tables/class-mp-wp-list-table.php:835
+#: includes/tables/class-mp-wp-list-table.php:884
+msgid "No comments"
+msgstr ""
+
+#. translators: No approved comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:832
+msgid "No approved comments"
+msgstr ""
+
+#. translators: No pending comments in Admin page.
+#: includes/tables/class-mp-wp-list-table.php:881
+msgid "No pending comments"
+msgstr ""
+
+#. translators: Accessibility text.
+#: includes/tables/class-mp-wp-list-table.php:1037
+msgid "First page"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1051
+msgid "Previous page"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1060
+#: includes/tables/class-mp-wp-list-table.php:1068
+msgid "Current Page"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1091
+msgid "Next page"
+msgstr ""
+
+#. translators: Table pagination.
+#: includes/tables/class-mp-wp-list-table.php:1104
+msgid "Last page"
+msgstr ""
+
+#. translators: table header checkbox label (Admin page).
+#: includes/tables/class-mp-wp-list-table.php:1384
+msgid "Select All"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:629
+msgid "Total User Referred"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:634
+msgid "Subscribed User Referred"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:639
+msgid "Unsubscribed users referred"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:644
+msgid "Total Commissions"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:649
+msgid "Unclaimed Commissions"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-admin-users.php:654
+msgid "Claimed Commissions"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#. translators: To date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:659
+#: includes/tables/class-table-admin-users.php:1007
+msgid "Registered"
+msgstr ""
+
+#. translators: Delete deposit action button.
+#. translators: Bulk action.
+#: includes/tables/class-table-admin-users.php:758
+#: includes/tables/class-table-payment-requests.php:1003
+msgid "Delete"
+msgstr ""
+
+#. translators: Table filter button.
+#: includes/tables/class-table-admin-users.php:918
+msgid "Filter"
+msgstr ""
+
+#: includes/tables/class-table-admin-users.php:948
+msgid "All Users"
+msgstr ""
+
+#. translators: From date placeholder text in table filter.
+#: includes/tables/class-table-admin-users.php:996
+msgid "From Date"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:507
+msgid "Commission Amount"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:510
+msgid "Referrer (Commission Owner)"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:516
+msgid "Referee (The buyer)"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#. translators: The admin payment request page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-commissions.php:519
+#: includes/tables/class-table-payment-requests.php:446
+#: templates/shortcodes/member-dashboard/commissions.php:95
+#: templates/shortcodes/member-dashboard/referees.php:61 translations.php:48
+msgid "Date"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:522
+msgid "Order Made"
+msgstr ""
+
+#. translators: The admin commissions page table column header.
+#: includes/tables/class-table-commissions.php:525
+msgid "Product Bought"
+msgstr ""
+
+#. translators: Date ago.
+#: includes/tables/class-table-commissions.php:712
+#: includes/tables/class-table-referees.php:693
+msgid "ago"
+msgstr ""
+
+#. translators: Error when the product is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:735
+msgid "Product not found"
+msgstr ""
+
+#. translators: Error when the order is not found while displaying the commissions in admin area.
+#: includes/tables/class-table-commissions.php:763
+msgid "Order not found"
+msgstr ""
+
+#. translators: Search input placeholder.
+#: includes/tables/class-table-commissions.php:984
+#: includes/tables/class-table-payment-requests.php:983
+#: includes/tables/class-table-referees.php:903
+msgid "Search Referees"
+msgstr ""
+
+#: includes/tables/class-table-commissions.php:1055
+#: includes/tables/class-table-referees.php:974
+msgid "By Referrer"
+msgstr ""
+
+#: includes/tables/class-table-commissions.php:1085
+#: includes/tables/class-table-referees.php:1004
+msgid "By Referee"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:428
+msgid "Requested By"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:431
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:296
+#: translations.php:59
+msgid "Amount"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:437
+msgid "Bank Account Name"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:440
+msgid "Account Number"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:443
+msgid "Commissions to pay for"
+msgstr ""
+
+#. translators: The admin payment request page table column header.
+#: includes/tables/class-table-payment-requests.php:449
+msgid "Paid Date"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:516
+msgid "Payment request(s) deleted successfully!"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:541
+msgid "Payment request(s) marked as pending."
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:566
+msgid "Payment request(s) marked as paid."
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:692
+msgid "View Commissions"
+msgstr ""
+
+#. translators: Bulk action. Mark payment as pending.
+#: includes/tables/class-table-payment-requests.php:1006
+msgid "Mark as Pending"
+msgstr ""
+
+#. translators: Bulk action. Mark payment as paid.
+#: includes/tables/class-table-payment-requests.php:1009
+msgid "Mark as Paid"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1059
+#: includes/tables/class-table-payment-requests.php:1103
+msgid "Filter by who requested the payment"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1065
+msgid "Requested by"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1116
+msgid "Pending"
+msgstr ""
+
+#: includes/tables/class-table-payment-requests.php:1120
+msgid "Paid"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#. translators: The table column title for the commission table in the user dashboard.
+#. translators: Table column in the referees table, in the member dashboard.
+#: includes/tables/class-table-referees.php:640
+#: templates/shortcodes/member-dashboard/commissions.php:89
+#: templates/shortcodes/member-dashboard/referees.php:67
+msgid "Referee"
+msgstr ""
+
+#. translators: The admin users page table column header.
+#: includes/tables/class-table-referees.php:643
+msgid "Referee Status"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:646
+msgid "Referred By"
+msgstr ""
+
+#. translators: The admin referees page table column header.
+#: includes/tables/class-table-referees.php:649
+msgid "Referee Signup Date"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:61
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:63
+msgid "Loyalty Point Gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:62
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:115
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:116
+msgid "Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:64
+msgid "All Loyalty Point Gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:65
+msgid "Parent Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:66
+msgid "Parent Loyalty Point Gift:"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:67
+msgid "New Loyalty Point Gift Name"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:68
+msgid "Add New Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:69
+msgid "Edit Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:70
+msgid "Update Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:71
+msgid "View Loyalty Point Gift"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:72
+msgid "Separate loyalty point gifts with commas"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:73
+msgid "Add or remove loyalty point gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:74
+msgid "Choose from the most used loyalty point gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:75
+msgid "Popular Loyalty Point Gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:76
+msgid "Search Loyalty Point Gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:77
+msgid "No loyalty point gifts found"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:78
+msgid "No loyalty point gifts"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:79
+msgid "Loyalty Point Gifts list"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:80
+msgid "Loyalty Point Gifts list navigation"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:246
+msgid "Start price*"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:247
+msgid "The start price to give the point"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:271
+msgid "Stop price*"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:272
+msgid "The stop price to give the point"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:297
+msgid "The amount to award a user who made an order withing this range."
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:336
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:425
+msgid "Start Price"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:337
+msgid "The start price to give the point."
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:354
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:426
+msgid "Stop Price"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:355
+msgid "The stop price to give the point."
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:373
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:427
+#: translations.php:60
+msgid "Point"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-loyalty-points-gift.php:374
+msgid ""
+"The point to award the user when they purchase a product between the start "
+"and stop price."
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:62 translations.php:45
+msgid "Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:64
+msgid "All Services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:65
+msgid "Parent Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:66
+msgid "Parent Service:"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:67
+msgid "New Service Name"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:68
+msgid "Add New Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:69
+msgid "Edit Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:70
+msgid "Update Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:71
+msgid "View Service"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:72
+msgid "Separate services with commas"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:73
+msgid "Add or remove services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:74
+msgid "Choose from the most used services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:75
+msgid "Popular Services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:76
+msgid "Search Services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:77
+msgid "No services found"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:78
+msgid "No services"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:79
+msgid "Services list"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:80
+msgid "Services list navigation"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:238
+#: includes/taxonomies/class-taxonomy-services.php:270
+#: includes/taxonomies/class-taxonomy-time-range.php:238
+#: includes/taxonomies/class-taxonomy-time-range.php:271
+msgid "Timing (in minutes)*"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-services.php:308
+#: includes/taxonomies/class-taxonomy-time-range.php:310
+msgid "Timing (Minutes)"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:61
+#: includes/taxonomies/class-taxonomy-time-range.php:63
+msgid "Time Ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:62
+msgid "Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:64
+msgid "All Time Ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:65
+msgid "Parent Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:66
+msgid "Parent Time Range:"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:67
+msgid "New Time Range Name"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:68
+msgid "Add New Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:69
+msgid "Edit Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:70
+msgid "Update Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:71
+msgid "View Time Range"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:72
+msgid "Separate time ranges with commas"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:73
+msgid "Add or remove time ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:74
+msgid "Choose from the most used time ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:75
+msgid "Popular Time Ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:76
+msgid "Search Time Ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:77
+msgid "No time ranges found"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:78
+msgid "No time ranges"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:79
+msgid "Time Ranges list"
+msgstr ""
+
+#: includes/taxonomies/class-taxonomy-time-range.php:80
+msgid "Time Ranges list navigation"
+msgstr ""
+
+#: includes/woo/class-point-payment-method.php:63
+msgid "Your Points"
+msgstr ""
+
+#. Translators: 1: Total unused points, 2: Total unused points in money value format.
+#: includes/woo/class-point-payment-method.php:66
+msgid "%1$s points%3$s (%2$s)"
+msgstr ""
+
+#: includes/woo/class-point-payment-method.php:110
+msgid "You must be logged in to use this payment method."
+msgstr ""
+
+#: includes/woo/class-point-payment-method.php:124
+msgid "You do not have enough loyalty points to pay for this order."
+msgstr ""
+
+#: includes/woo/class-point-payment-method.php:133
+msgid "Payment completed using loyalty points."
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:32
+msgid "Total commissions made"
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:43
+msgid "Total commissions claimed"
+msgstr ""
+
+#. translators: The title of the commission stats in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:55
+msgid "Total commissions unclaimed"
+msgstr ""
+
+#. translators: The table column title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:77
+msgid "Commission"
+msgstr ""
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:175
+msgid "Start Date"
+msgstr ""
+
+#. translators: The table filter date title for the commission table in the user dashboard.
+#: templates/shortcodes/member-dashboard/commissions.php:189
+msgid "Stop Date"
+msgstr ""
+
+#. translators: The total number of referees. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:19
+msgid "Total number of referees"
+msgstr ""
+
+#. translators: The total number of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:30
+msgid "Total number of subscribed referees"
+msgstr ""
+
+#. translators: The total unsubscribed of unsubscribed users. Displayed as stats in the member dashboard.
+#: templates/shortcodes/member-dashboard/referees.php:41
+msgid "Total number of unsubscribed referees"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:181
+msgid "Date:"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:193
+msgid "Referee:"
+msgstr ""
+
+#. translators: User dashboard Referee table column title.
+#: templates/shortcodes/member-dashboard/referees.php:215
+msgid "Status:"
+msgstr ""
+
+#. translators: The title of the user's username displayed in the user's dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:26
+msgid "My Username"
+msgstr ""
+
+#. translators: The user's user id.
+#: templates/shortcodes/member-dashboard/settings.php:34
+msgid "My User ID"
+msgstr ""
+
+#. translators: The user's referrer id and username. This played in the user dashboard settings page.
+#: templates/shortcodes/member-dashboard/settings.php:42
+msgid "Referrer User ID / Username"
+msgstr ""
+
+#. translators: Displayed in the user dashboard settings page when the user has no referrer.
+#: templates/shortcodes/member-dashboard/settings.php:48
+msgid "No Referrer"
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:98
+msgid "Home"
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:110
+msgid "Member Dashboard"
+msgstr ""
+
+#: templates/shortcodes/shortcode-member-dashboard.php:138
+msgid "Hello "
+msgstr ""
+
+#. translators: Title displayed to the user when they are eligible to purchase a plan (Title of the popup).
+#: templates/shortcodes/shortcode-purchase-plan.php:24
+msgid "Purchase Plan"
+msgstr ""
+
+#. translators: Text displayed to the user when they are about to purchase a plan. %1$s is the plan price, %1$s is the discount percentage subscribers get for products.
+#: templates/shortcodes/shortcode-purchase-plan.php:28
+msgid ""
+"After purchasing this plan, you will become a subscribed member and gain "
+"%1$s percent discount on products on this site."
+msgstr ""
+
+#. translators: Button text displayed to the user when they are eligible to withdraw their commission.
+#: templates/shortcodes/shortcode-request-payment.php:17
+msgid "Claim your commissions"
+msgstr ""
+
+#: translations.php:4
+msgid "No booking found"
+msgstr ""
+
+#: translations.php:5
+msgid "Admin Settings"
+msgstr ""
+
+#: translations.php:6
+msgid "Save"
+msgstr ""
+
+#: translations.php:7
+msgid "User Dashboard Page"
+msgstr ""
+
+#: translations.php:8
+msgid "Select Page"
+msgstr ""
+
+#: translations.php:9
+msgid "Booking Page"
+msgstr ""
+
+#: translations.php:10
+msgid "Points for Facial Analysis"
+msgstr ""
+
+#: translations.php:11
+msgid "Facial Analysis Url"
+msgstr ""
+
+#: translations.php:12
+msgid "User Loyalty Points"
+msgstr ""
+
+#: translations.php:14
+msgid "Add Loyalty Points"
+msgstr ""
+
+#: translations.php:15
+msgid "Loyalty point amount"
+msgstr ""
+
+#: translations.php:16
+msgid "Description"
+msgstr ""
+
+#: translations.php:17
+msgid "Add Point"
+msgstr ""
+
+#: translations.php:18
+msgid "Email or Username"
+msgstr ""
+
+#: translations.php:22
+msgid "click here"
+msgstr ""
+
+#: translations.php:25
+msgid "New Password"
+msgstr ""
+
+#: translations.php:29
+msgid "login"
+msgstr ""
+
+#: translations.php:30
+msgid "We'll send you a recovery code to your email address."
+msgstr ""
+
+#: translations.php:32
+msgid "Send recovery code"
+msgstr ""
+
+#: translations.php:33
+msgid "Already have an account?"
+msgstr ""
+
+#: translations.php:34
+msgid "Recovery code"
+msgstr ""
+
+#: translations.php:35
+msgid "Please provide the code sent to your email"
+msgstr ""
+
+#: translations.php:36
+msgid "Verify"
+msgstr ""
+
+#: translations.php:38
+msgid "Email"
+msgstr ""
+
+#: translations.php:41
+msgid "Submit Booking"
+msgstr ""
+
+#: translations.php:42
+msgid "Add Services"
+msgstr ""
+
+#: translations.php:43
+msgid "Click this button to add a new service to your booking."
+msgstr ""
+
+#: translations.php:44
+msgid "Select Date and Time"
+msgstr ""
+
+#: translations.php:46
+msgid "Service Duration:"
+msgstr ""
+
+#: translations.php:47
+msgid "minutes"
+msgstr ""
+
+#: translations.php:49
+msgid "Time"
+msgstr ""
+
+#: translations.php:50
+msgid "This service takes"
+msgstr ""
+
+#: translations.php:51
+msgid "Pick a service"
+msgstr ""
+
+#: translations.php:52
+msgid "Start Time"
+msgstr ""
+
+#: translations.php:53
+msgid "Stop Time"
+msgstr ""
+
+#: translations.php:54
+msgid "Duration"
+msgstr ""
+
+#: translations.php:55
+msgid "Thanks for signing."
+msgstr ""
+
+#: translations.php:56
+msgid "Signature not signed. Sign below."
+msgstr ""
+
+#: translations.php:57
+msgid "Clear"
+msgstr ""
+
+#: translations.php:58
+msgid "Remark"
+msgstr ""
+
+#: translations.php:61
+msgid "Amounts To"
+msgstr ""
+
+#: translations.php:62
+msgid "Booking"
+msgstr ""
+
+#: translations.php:64
+msgid "Book a service"
+msgstr ""
+
+#: translations.php:65
+msgid "Click the button below to do your facial analysis for today."
+msgstr ""
+
+#: translations.php:66
+msgid "You have already done your facial analysis for today."
+msgstr ""
+
+#: translations.php:67
+msgid "Come back tomorrow for your next facial analysis."
+msgstr ""
+
+#: translations.php:68
+msgid "Message"
+msgstr ""
+
+#: translations.php:70
+msgid "Facial Analysis"
+msgstr ""

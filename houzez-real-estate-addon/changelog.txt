@@ -1,0 +1,19 @@
+== Changelog ==
+
+= 5.0.0 - 2024-01-25
+* Built in features in milestone 5
+
+
+= 2.0.5 - 2023-02-26
+* Fix: Fixed signup, login page translations that was very worrisome.
+
+= 2.0.1 - 2022-12-20
+* Fix: Fixed multiple issues with translations.
+
+= 1.0.1 - 2022-11-21
+* Fix: Fixed a bug where the front end menu attachment for "member dashboard" causes problem "
+  Illegal widget ID" during site customization.
+
+= 1.0.0 - Initial release.
+
+
