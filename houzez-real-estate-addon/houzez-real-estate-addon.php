@@ -6,7 +6,7 @@
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit(); // Exit if accessed directly. test
+	exit(); // Exit if accessed directly.
 }
 /**
  * Plugin Name:     Houzez Real Estate Addon
@@ -29,7 +29,6 @@ if ( ! defined( 'ABSPATH' ) ) {
  * License: GNU General Public License v3.0
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
-
 
 require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/functions.php';

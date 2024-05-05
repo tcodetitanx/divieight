@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hre-30: rgb(247, 247, 247);
+  --hre-30-hover: rgb(217, 217, 217);
+  --hre-60: rgb(256, 256, 256);
+  --hre-60-hover: rgb(236, 236, 236);
+  /*  --hre-10: rgb(255 177 23);*/
+  // convert to rgb 30c7b5
+  --hre-10: rgb(48, 199, 181);
+  // --hre-10: #30c7b5;
+  --hre-10-hover: rgb(189, 130, 17);
+  --hre-text-black: rgb(0, 0, 0);
+}
+
+.mp-slide-in {
+  position: relative;
+  left: 0;
+  -webkit-animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  -moz-animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  -animation-fill-mode: forwards;
+}
+
+.mp-slide-left {
+  position: relative;
+  left: 0;
+  -webkit-animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  -moz-animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  animation: spSlideIn 1s cubic-bezier(0.1, 1.04, 0.25, 0.91);
+  -animation-fill-mode: forwards;
+  transition: height 4s;
+}
+
+@keyframes spSlideIn {
+  0% {
+    transform: translateX(+100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.react-paginate-table-wrapper {
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+    li {
+      display: inline-block;
+      width: 30px;
+      border: 1px solid #e2e2e2;
+      display: flex;
+      justify-content: center;
+      font-size: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+
+      :hover {
+        background: #f6f6f6;
+      }
+
+      a {
+        text-decoration: none !important;
+        color: #337ab7;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      &.selected {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.MuiModal-root{
+  z-index: 9999999 !important;
+  overflow-y: auto !important;
+}

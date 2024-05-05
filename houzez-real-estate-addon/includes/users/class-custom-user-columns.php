@@ -9,10 +9,8 @@ namespace HRE_Addon\Includes\Users;
 
 use HRE_Addon\Includes\Rest_Api\User_Service;
 use HRE_Addon\Initializer;
-
 use HRE_Addon\Libs\Settings;
 use WP_User;
-
 use function HRE_Addon\mp_get_script;
 use function HRE_Addon\mp_get_style;
 
@@ -63,9 +61,9 @@ class Custom_User_Columns {
 			$hre_agent_zip_code = filter_input( INPUT_GET, 'hre_agent_zip_code' );
 			$hre_agent_state    = filter_input( INPUT_GET, 'hre_agent_state' );
 
-			$meta = @$query->query_vars['meta_query'];
-			if ( ! is_array( $meta ) ) {
-				$meta = array();
+			$meta = array();
+			if ( ! empty( $query->query_vars['meta_query'] ) ) {
+				$meta = $query->query_vars['meta_query'];
 			}
 
 			if ( ! empty( $hre_agent_state ) ) {
@@ -213,6 +211,7 @@ class Custom_User_Columns {
 	public function add_custom_columns( array $columns ): array {
 		$columns['hre_buyer_preference'] = __( 'Buyer Preference', 'hre-addon' );
 		$columns['hre_seller_agent']     = __( "Seller's Agent", 'hre-addon' );
+		$columns['hre_buyer_agent']      = __( "Buyer's Agent", 'hre-addon' );
 		$columns['hre_agent_details']    = __( 'Agent Details', 'hre-addon' );
 
 		do_action( 'hre_enqueue_cpt_users' );
@@ -236,6 +235,10 @@ class Custom_User_Columns {
 			);
 		} elseif ( 'hre_seller_agent' === $column_name ) {
 			$value = $this->display_seller_agent(
+				$user_id
+			);
+		} elseif ( 'hre_buyer_agent' === $column_name ) {
+			$value = $this->display_buyer_agent(
 				$user_id
 			);
 		} elseif ( 'hre_agent_details' === $column_name ) {
@@ -294,7 +297,7 @@ class Custom_User_Columns {
 		}
 
 		// User must be a seller role.
-		if ( Settings::USER_ROLE_SELLER !== $seller->roles[0] ) {
+		if ( ! is_array( $seller->roles ) || empty( $seller->roles[0] ) || Settings::USER_ROLE_SELLER !== $seller->roles[0] ) {
 			return sprintf( '<div data-why="user-not-seller"></div>' );
 		}
 
@@ -344,6 +347,73 @@ class Custom_User_Columns {
 		);
 	}
 
+	/**
+	 * Display buyer agent.
+	 *
+	 * @param int $user_id Buyer id.
+	 *
+	 * @return string
+	 */
+	private function display_buyer_agent( int $user_id ): string {
+//		Settings::UM_BUYER_REFERRER_FULL_NAME                       => $referrer_full_name,
+//		Settings::UM_BUYER_WAS_REFERRED                             => $was_referred,
+//		Settings::UM_BUYER_REFERRER_EMAIL                           => $referrer_email,
+//		Settings::UM_BUYER_REFERRER_PHONE                           => $referrer_phone,
+//		Settings::UM_BUYER_REFERRER_IS_AGENT_OR_BROKER              => $referrer_is_agent_or_broker,
+//		Settings::UM_BUYER_REFERRER_IS_AGENT_OR_BROKER_CONFIRMATION => $referrer_is_agent_or_broker_confirmation,
+		$agent_details = array(
+			'full_name'                                => '',
+			'email'                                    => '',
+			'phone'                                    => '',
+			'was_referred'                             => '',
+			'referrer_is_agent_or_broker'              => '',
+			'referrer_is_agent_or_broker_confirmation' => ''
+		);
+		$buyer         = get_user_by( 'ID', $user_id );
+		if ( ! ( $buyer instanceof WP_User ) ) {
+			return sprintf( '<div data-why="user-not-found"></div>' );
+		}
+
+		// User must be a seller role.
+		if ( empty( $buyer->roles[0] ) || Settings::USER_ROLE_BUYER !== $buyer->roles[0] ) {
+			return sprintf( '<div data-why="user-not-buyer"></div>' );
+		}
+
+		$agent_details['full_name']                                = get_user_meta( $user_id, Settings::UM_BUYER_REFERRER_FULL_NAME, true );
+		$agent_details['email']                                    = get_user_meta( $user_id, Settings::UM_BUYER_REFERRER_EMAIL, true );
+		$agent_details['phone']                                    = get_user_meta( $user_id, Settings::UM_BUYER_REFERRER_PHONE, true );
+		$agent_details['was_referred']                             = get_user_meta( $user_id, Settings::UM_BUYER_WAS_REFERRED, true );
+		$agent_details['referrer_is_agent_or_broker']              = get_user_meta( $user_id, Settings::UM_BUYER_REFERRER_IS_AGENT_OR_BROKER, true );
+		$agent_details['referrer_is_agent_or_broker_confirmation'] = get_user_meta( $user_id, Settings::UM_BUYER_REFERRER_IS_AGENT_OR_BROKER_CONFIRMATION, true );
+
+		// Make sure the user have the role of buyer.
+		return sprintf(
+			'
+			<div class="hre-buyer-agent-details-wrapper " data-user-id="%1$s">
+				<div class="hre-agent-full-name flex flex-row gap-2"><span class="whitespace-nowrap">%2$s :</span>  %3$s</div>
+				<div class="hre-agent-email flex flex-row gap-2"><span  class="whitespace-nowrap">%4$s :</span>  %5$s</div>
+				<div class="hre-agent-phone flex flex-row gap-2"><span  class="whitespace-nowrap">%6$s :</span> %7$s</div>
+				<div class="hre-agent-was-referred flex flex-row gap-2"><span  class="whitespace-nowrap">%8$s :</span> %9$s</div>
+				<div class="hre-agent-was-is-agent-or-broker flex flex-row gap-2"><span  class="whitespace-nowrap">%10$s :</span> %11$s</div>
+				<div class="hre-agent-was-is-agent-or-broker-confirmation flex flex-row gap-2"><span  class="whitespace-nowrap">%12$s :</span> %13$s</div>
+			</div>
+		',
+			$user_id,
+			__( 'Full Name', 'hre-addon' ),
+			$agent_details['full_name'],
+			__( 'Email', 'hre-addon' ),
+			$agent_details['email'],
+			__( 'Phone', 'hre-addon' ),
+			$agent_details['phone'],
+			__( 'Was Referred', 'hre-addon' ),
+			$agent_details['was_referred'],
+			__( 'Referrer is Agent or Broker', 'hre-addon' ),
+			$agent_details['referrer_is_agent_or_broker'],
+			__( 'Referrer is Agent or Broker Confirmation', 'hre-addon' ),
+			$agent_details['referrer_is_agent_or_broker_confirmation']
+		);
+	}
+
 
 	/**
 	 * Display agent details.
@@ -364,7 +434,7 @@ class Custom_User_Columns {
 		}
 
 		// User must be a seller role.
-		if ( Settings::USER_ROLE_AGENT !== $agent->roles[0] ) {
+		if ( empty( $agent->roles[0] ) || Settings::USER_ROLE_AGENT !== $agent->roles[0] ) {
 			return sprintf( '<div data-why="user-not-agent"></div>' );
 		}
 

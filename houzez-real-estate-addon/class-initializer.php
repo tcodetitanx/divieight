@@ -153,6 +153,7 @@ class Initializer {
 		add_action( 'init', array( $this, 'on_init' ) );
 		add_action( 'admin_init', array( $this, 'on_admin_init' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'register_scripts' ) );
+		add_action( 'wp_enqueue_scripts', array( $this, 'add_custom_styles_and_scripts' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_scripts_for_frontend' ) );
 
 		$this->initialize_custom_post_types();
@@ -162,8 +163,6 @@ class Initializer {
 		$this->initialize_shortcodes();
 		$this->initialize_sections();
 		$this->initialize_services();
-
-		hre_add_custom_styles();
 
 
 		add_action( 'init', array( $this, 'load_plugin_text_domain' ) );
@@ -312,6 +311,16 @@ class Initializer {
 		add_action( 'wp_footer', array( $this, 'output_client_data' ), 10 );
 		add_action( 'admin_footer', array( $this, 'output_client_data' ), 10 );
 
+
+	}
+
+	/**
+	 * Add styles and scripts.
+	 *
+	 * @return void
+	 */
+	public function add_custom_styles_and_scripts(): void {
+		hre_add_custom_styles();
 		hre_add_style_to_hide_sidebar();
 		hre_add_style_to_hide_search_bar();
 		hre_add_script_to_scroll_up_to_woocommerce_notice();
@@ -319,7 +328,6 @@ class Initializer {
 		hre_add_style_to_hide_woocommerce_coupon_section();
 		hre_add_style_to_hide_shipping_option_in_checkout_page();
 	}
-
 
 	/**
 	 * Output the client data.

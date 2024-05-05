@@ -261,7 +261,7 @@ class User_Service {
 			'user_pass'        => $password,
 			'first_name'       => $full_name,
 			'last_name'        => '',
-			'role'             => 'subscriber',
+			'role'             => Settings::USER_ROLE_BUYER,
 			'teacher_subjects' => array(),
 			'meta_input'       => array(
 				Settings::UM_BUYER_PHONE                                    => $phone,

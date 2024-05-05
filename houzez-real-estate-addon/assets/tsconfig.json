@@ -1,0 +1,54 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "Es2021",
+      "dom"
+    ],
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    //    "strict": true,
+    "strict": false,
+    "experimentalDecorators": true,
+    // necessary to use vue class component
+    "allowSyntheticDefaultImports": true,
+    // So that all binds and calls on function will ask for types.
+    "strictBindCallApply": true,
+    // Be able to import json files.
+    "allowUmdGlobalAccess": true,
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      // "@features/*": ["./src/features/*"]
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "public",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "src/**/*.stories.ts"
+  ],
+  "include": [
+    "**/*.{ts,tsx}"
+    //    "src/**/*",
+    // "src/**/*.{ts,tsx,js,jsx}"
+    //    ".eslintrc.js"
+  ]
+}
